@@ -1,0 +1,184 @@
+<ui version="4.0" >
+ <class>ConfigDglKlipperClass</class>
+ <widget class="QWidget" name="ConfigDglKlipperClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>554</width>
+    <height>479</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>ConfigDglKlipper</string>
+  </property>
+  <layout class="QVBoxLayout" >
+   <property name="spacing" >
+    <number>4</number>
+   </property>
+   <property name="leftMargin" >
+    <number>4</number>
+   </property>
+   <property name="topMargin" >
+    <number>4</number>
+   </property>
+   <property name="rightMargin" >
+    <number>4</number>
+   </property>
+   <property name="bottomMargin" >
+    <number>4</number>
+   </property>
+   <item>
+    <widget class="QCheckBox" name="cbUse" >
+     <property name="text" >
+      <string>Aktiviere die Zwischenablagenüberwachung</string>
+     </property>
+     <property name="checked" >
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" >
+     <item>
+      <spacer>
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType" >
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" >
+        <size>
+         <width>32</width>
+         <height>16</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame" >
+       <property name="frameShape" >
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow" >
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QGridLayout" >
+        <property name="leftMargin" >
+         <number>4</number>
+        </property>
+        <property name="topMargin" >
+         <number>4</number>
+        </property>
+        <property name="rightMargin" >
+         <number>4</number>
+        </property>
+        <property name="bottomMargin" >
+         <number>4</number>
+        </property>
+        <property name="horizontalSpacing" >
+         <number>4</number>
+        </property>
+        <property name="verticalSpacing" >
+         <number>4</number>
+        </property>
+        <item row="0" column="0" >
+         <widget class="QLabel" name="label" >
+          <property name="text" >
+           <string>Art:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1" >
+         <widget class="QComboBox" name="cbMode" >
+          <property name="sizePolicy" >
+           <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <item>
+           <property name="text" >
+            <string>Zwischenablage</string>
+           </property>
+          </item>
+          <item>
+           <property name="text" >
+            <string>Globale Mausselection (Linux)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text" >
+            <string>Find buffer (Mac OS X)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="1" column="0" >
+         <widget class="QLabel" name="label_2" >
+          <property name="text" >
+           <string>Überprüfungsintervall:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" >
+         <widget class="QSpinBox" name="cbTime" >
+          <property name="alignment" >
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="suffix" >
+           <string> ms</string>
+          </property>
+          <property name="minimum" >
+           <number>1000</number>
+          </property>
+          <property name="maximum" >
+           <number>10000</number>
+          </property>
+          <property name="singleStep" >
+           <number>50</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer>
+     <property name="orientation" >
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" >
+      <size>
+       <width>20</width>
+       <height>291</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections>
+  <connection>
+   <sender>cbUse</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>frame</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>122</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>108</x>
+     <y>39</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

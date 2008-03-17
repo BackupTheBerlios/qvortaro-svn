@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/" >
+        <file alias="aBeenden" >img/actionBeenden.png</file>
+        <file alias="aBuch" >img/actionBuch.png</file>
+        <file alias="aCaption" >img/actionCaption.png</file>
+        <file alias="aCwTr" >img/actionCwTr.png</file>
+        <file alias="aAusrichtung" >img/actionLayout.png</file>
+        <file alias="aLR" >img/actionLeftRight.png</file>
+        <file alias="actionLoadView" >img/actionLoadView.png</file>
+        <file alias="actionSaveView" >img/actionSaveView.png</file>
+        <file alias="aTB" >img/actionTopBottom.png</file>
+        <file alias="aTrCw" >img/actionTrCw.png</file>
+        <file alias="actionView" >img/actionView.png</file>
+        <file alias="button_cancel" >img/button_cancel.png</file>
+        <file alias="button_ok" >img/button_ok.png</file>
+        <file alias="cAllgemein" >img/cAllgemein.png</file>
+        <file alias="cBook" >img/cBook.png</file>
+        <file alias="cFind" >img/cFind.png</file>
+        <file alias="cFont" >img/cFont.png</file>
+        <file alias="cKlipper" >img/cKlipper.png</file>
+        <file alias="cLayout" >img/cLayout.png</file>
+        <file alias="clear" >img/clear.png</file>
+        <file alias="aConfigure" >img/configure.png</file>
+        <file alias="dlgTopVortaro">img/dlgTopVortaro.png</file>
+        <file alias="dlgTopVortaroBG" >img/dlgTopVortaroBG.png</file>
+        <file alias="find" >img/find.png</file>
+        <file alias="icon_16" >img/icon_16.png</file>
+        <file alias="lhbl" >img/lhbl.png</file>
+        <file alias="lhbll" >img/lhbll.png</file>
+        <file alias="lhbls" >img/lhbls.png</file>
+        <file alias="lhlb" >img/lhlb.png</file>
+        <file alias="lhlbl" >img/lhlbl.png</file>
+        <file alias="lhlbs" >img/lhlbs.png</file>
+        <file alias="lvbl" >img/lvbl.png</file>
+        <file alias="lvbll" >img/lvbll.png</file>
+        <file alias="lvbls" >img/lvbls.png</file>
+        <file alias="lvlb" >img/lvlb.png</file>
+        <file alias="lvlbl" >img/lvlbl.png</file>
+        <file alias="lvlbs" >img/lvlbs.png</file>
+        <file alias="pbFolder" >img/pbFolder.png</file>
+        <file alias="pbFont" >img/pbFont.png</file>
+        <file alias="pbInternet" >img/pbInternet.png</file>
+        <file alias="tool" >img/tool.png</file>
+    </qresource>
+</RCC>

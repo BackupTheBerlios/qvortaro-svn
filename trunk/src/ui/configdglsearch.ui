@@ -1,0 +1,71 @@
+<ui version="4.0" >
+ <class>ConfigDglSearchClass</class>
+ <widget class="QWidget" name="ConfigDglSearchClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>559</width>
+    <height>173</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>ConfigDglSearch</string>
+  </property>
+  <layout class="QVBoxLayout" >
+   <property name="spacing" >
+    <number>4</number>
+   </property>
+   <property name="leftMargin" >
+    <number>4</number>
+   </property>
+   <property name="topMargin" >
+    <number>4</number>
+   </property>
+   <property name="rightMargin" >
+    <number>4</number>
+   </property>
+   <property name="bottomMargin" >
+    <number>4</number>
+   </property>
+   <item>
+    <widget class="QCheckBox" name="punctation" >
+     <property name="text" >
+      <string>Bei erfolgloser Suche Interpunktion vernachlässigen</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="eoending" >
+     <property name="text" >
+      <string>Bei Esperanto bei erfolgloser Suche grammatikalische Endungen vernachlässigen</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="cbUseWildcards" >
+     <property name="text" >
+      <string>Wildcards in der Suche verwenden</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer>
+     <property name="orientation" >
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" >
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="4" margin="4" />
+ <includes/>
+ <resources/>
+ <connections/>
+</ui>
